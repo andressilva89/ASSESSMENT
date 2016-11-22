@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Pizzaria Shakita</title>
+
+  <link rel="stylesheet" href="CSS/style.css"/>
+  <link rel="stylesheet" href="CSS/jquery-ui.css"/>
+  <link rel="stylesheet" href="CSS/jquery-ui.structure.css"/>
+  <link rel="stylesheet" href="CSS/jquery-ui.theme.css"/>
+  <script language="JavaScript" type="text/javascript" src="JS/jquery.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="JS/js.js"></script>
+  <script language="JavaScript" type="text/javascript" src="JS/jquery-ui.js"></script>
+
+</head>
+<body>
+<header>
+  <div class="clearfix nav-top">
+    <div class="conteudo">
+      <div id="logo">
+        <a href="index.html">
+          <img src="img/logo.png" title="Pizzaria Shakita" alt="pizzaria shakita"
+               class="center-block imagem-responsiva"/>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<div class='conteudo'>
+
+  <div class="classCardapio layout">
+    <form id="cardapio">
+      <div class="pizzas">
+        <div>
+          <img src="img/calabresa.jpg" alt="Pizza Calabresa" class="imagem-responsiva">
+        </div>
+        <div>
+          <label>Descrição: Pizza Calabresa</label>
+        </div>
+        <div>
+          <label>Preço: </label><span>29,90</span>
+        </div>
+        <div>
+          <label>Quantidade:</label>
+          <input class="quantidade" type="number" value="0" min="0" max="5">
+          <input class="valor" name="Pizza Calabresa" value="29.90" type="hidden">
+        </div>
+      </div>
+
+      <div class="pizzas">
+        <div>
+          <img src="img/frango%20com%20catupiry.jpg" alt="Pizza Frango Com Catupiry" class="imagem-responsiva">
+        </div>
+        <div>
+          <label>Descrição: Pizza Frango c/Catupiry</label>
+        </div>
+        <div>
+          <label>Preço: </label><span>29,90</span>
+        </div>
+        <div>
+          <label>Quantidade:</label>
+          <input class="quantidade" value="0" type="number" min="0" max="5">
+          <input class="valor" name="Pizza de Frango com Catupiry" value="29.90" type="hidden">
+        </div>
+      </div>
+
+      <div class="pizzas">
+        <div>
+          <img src="img/quatro%20queijos.jpg" alt="Pizza Quatro Queijos" class="imagem-responsiva">
+        </div>
+        <div>
+          <div>
+            <label>Descrição: Pizza Quatro Queijos</label>
+          </div>
+          <label>Preço: </label><span>29,90</span>
+        </div>
+        <div>
+          <label>Quantidade:</label>
+          <input class="quantidade" value="0" type="number" min="0" max="5">
+          <input class="valor" name="Pizza de Quatro Queijos" value="29.90" type="hidden">
+        </div>
+      </div>
+
+      <div class="pizzas">
+        <div>
+          <img src="img/pizza%20de%20chocolate.jpg" alt="Pizza Chocolate" class="imagem-responsiva">
+        </div>
+        <div>
+          <label>Descrição: Pizza de Chocolate</label>
+        </div>
+        <div>
+          <label>Preço: </label><span>29,90</span>
+        </div>
+        <div>
+          <label>Quantidade:</label>
+          <input class="quantidade" value="0" type="number" min="0" max="5">
+          <input class="valor" name="Pizza de Chocolate" value="29.90" type="hidden">
+        </div>
+      </div>
+
+      <div class="pizzas">
+        <div>
+          <img src="img/banana.jpg" alt="Pizza de Banana" class="imagem-responsiva">
+        </div>
+        <div>
+          <label>Descrição: Pizza de Banana</label>
+        </div>
+        <div>
+          <label>Preço: </label><span>29,90</span>
+        </div>
+        <div>
+          <label>Quantidade:</label>
+          <input class="quantidade" value="0" type="number" min="0" max="5">
+          <input class="valor" name="Pizza de Banana" value="29.90" type="hidden">
+        </div>
+      </div>
+
+      <div class="pizzas">
+        <div>
+          <img src="img/portuguesa.jpg" alt="Pizza Portuguesa" class="imagem-responsiva">
+        </div>
+        <div>
+          <label>Descrição: Pizza Portuguesa</label>
+        </div>
+        <div>
+          <label>Preço: </label><span>29,90</span>
+        </div>
+        <div>
+          <label>Quantidade:</label>
+          <input class="quantidade" value="0" type="number" min="0" max="5">
+          <input class="valor" name="Pizza Portuguesa" value="29.90" type="hidden">
+        </div>
+      </div>
+
+      <div class="bebidas">
+        <div>
+          <img src="img/coca.jpg" alt="Coca" class="imagem-responsiva">
+        </div>
+        <div>
+          <label>Descrição: Coca-Cola 2L</label>
+        </div>
+        <div>
+          <label>Preço: </label><span>8,90</span>
+        </div>
+        <div>
+          <label>Quantidade:</label>
+          <input class="quantidade" value="0" type="number" min="0" max="5">
+          <input class="valor" name="Coca-Cola 2L" value="8.90" type="hidden">
+        </div>
+      </div>
+
+      <div class="bebidas">
+        <div>
+          <img src="img/guarana.jpg" alt="Guaraná" class="imagem-responsiva">
+        </div>
+        <div>
+          <label>Descrição: Guaraná 2L</label>
+        </div>
+        <div>
+          <label>Preço: </label><span>5,90</span>
+        </div>
+        <div>
+          <label>Quantidade:</label>
+          <input class="quantidade" value="0" type="number" min="0" max="5">
+          <input class="valor" name="Guaraná 2L" value="5.90" type="hidden">
+        </div>
+      </div>
+
+      <div class="bebidas">
+        <div>
+          <img src="img/icetea.jpg" alt="IceTea" class="imagem-responsiva">
+        </div>
+        <div>
+          <label>Descrição: Ice Tea 300ml</label>
+        </div>
+        <div>
+          <label>Preço: </label><span>2,90</span>
+        </div>
+        <div>
+          <label>Quantidade:</label>
+          <input class="quantidade" value="0" type="number" min="0" max="5">
+          <input class="valor" name="Ice Tea 300ml" type="hidden" value="2.90">
+        </div>
+      </div>
+      <div class="precofinal">
+        <label>Total: </label><span class="total">0,00</span>
+      </div>
+      <div class="clearfix button">
+        <a href="#" class="btnAvancarPizza btn btn-lg btn-primary">Finalizar Pedido</a>
+      </div>
+    </form>
+  </div>
+
+  <div class="classCadastro layout hide">
+    <h2>Cadastro</h2>
+    <form name="formulario" method="post" class="formularioCadastro" onsubmit="return validar();">
+      <label>Nome:</label>
+      <input name="nome" id="nome" class="formulario" type="text" maxlength="60" placeholder="Nome Completo"
+             onclick="removeeffectnome()"/>
+      <div id="errorNome" class="error"></div>
+      <label>Telefone:</label>
+      <input name="telefone" id="telefone" class="formulario" type="text" maxlength="10" placeholder=""
+             onclick="removeeffecttelefone()"/>
+      <div id="errorTelefone" class="error"></div>
+      <label>Endereço:</label>
+      <input name="endereco" id="endereco" class="formulario" type="text" maxlength="200"
+             placeholder="Ex: Rua, Av e etc." onclick="removeeffectendereco()"/>
+      <div id="errorEndereco" class="error"></div>
+      <label>Nº:</label>
+      <input name="numero" id="numero" class="formulario" type="text" placeholder="Nº" maxlength="5"
+             onclick="removeeffectnumero()"/>
+      <div id="errorNumero" class="error"></div>
+      <label>Complemento:</label>
+      <input name="complemento" id="complemento" class="formulario" type="text" placeholder="Ex: Apto, Bloco, Lote"
+             maxlength="100"/>
+
+      <div class="clearfix button">
+        <a href="#" class="btnVoltarPizza btn btn-lg btn-primary">Voltar Pizza</a>
+        <a href="#" class="btnAvancarCadastro btn btn-lg btn-primary">Confirmar Cadastro</a>
+      </div>
+    </form>
+  </div>
+  <div class="classPagamento layout hide">
+    <h2>Pagamento</h2>
+    <form name="cartao" id="cartaocredito" method="post" onsubmit="">
+      <label>Cartao de Credito</label>
+      <input name="numerocartao" id="numerocartao" class="inputcredito" maxlength="16" placeholder="Numero do Cartão"
+             onclick="removeeffectnumerocartao()">
+      <div id="errorNumerocartao" class="error"></div>
+      <br>
+      <label>Validade</label>
+      <input name="validade" id="validade" class="inputcredito" type="text" maxlength="5" placeholder="MM/AA"
+             onclick="removeeffectvalidade()">
+      <div id="errorValidade" class="error"></div>
+      <label>CVC</label>
+      <input name="codigocartao" id="cvc" class="inputcredito" maxlength="3" type="password" placeholder="xxx"
+             onclick="removeeffectcvc()">
+      <div id="errorCVC" class="error"></div>
+      <br>
+      <label>Nome no Cartão</label>
+      <input name="nomecartao" id="nomecartao" class="inputcredito" type="text" placeholder="FULANO S G SILVA"
+             onclick="removeeffectnomecartao()">
+      <div id="errorNomecartao" class="error"></div>
+      <br>
+      <div class="clearfix button">
+        <a href="#" class="btnVoltarCadastro btn btn-lg btn-primary">Voltar Cadastro</a>
+        <a href="#" class="btnConfirmarPagamento btn btn-lg btn-primary">Confirmar Pagamento</a>
+      </div>
+    </form>
+  </div>
+  <div class="classFinalizacao layout hide">
+    <h2>Obrigado pela compra!</h2>
+    <h3>Detalhes do Pedido: </h3><span class="descricao"></span>
+    <p>Pizzas: <span class="pedido"></span></p>
+    <p>Valor: <span class="total"></span></p>
+  </div>
+</div>
+<footer>
+  <div class="clearfix footer">
+    <div class="conteudo">
+      © Pizzaria Shakita 2016. All right reserved.
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,264 @@
+*::after, *::before {
+  box-sizing: border-box;
+}
+*::after, *::before {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  background-size: 100%;
+  background-image: url("../img/pizza.jpg");
+  font-family: "Comic Sans MS";
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  body{
+    font-size: 0.85em;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav {
+  float: right;
+  top:8px;
+  margin-right: 20px;
+}
+
+.nav-top {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.layout{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.error{
+  margin-left: 20px;
+  font-size: 20px;
+  color: red;
+}
+
+#logo{
+  top:8px;
+}
+
+.catalogo{
+  width: 30%;
+  margin-left: 35%;
+  background-color: lightgrey;
+  border: 3px solid black ;
+}
+
+.precofinal{
+  margin: 20px auto 0 auto;
+}
+
+.catalogo li{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  .conteudo {
+      width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .conteudo {
+      width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .conteudo {
+      width: 1170px;
+  }
+}
+.conteudo {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#cardapio .pizzas, #cardapio .bebidas{
+  background-color: white;
+  display: inline-block;
+  margin-top: 11px;
+  border: 2px black solid;
+}
+
+#cardapio .pizzas label, #cardapio .bebidas label{
+  margin: 20px;
+}
+
+.pizzas div img, .bebidas div img{
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.pizzas div input, .bebidas div input{
+  margin: 10px 0px;
+}
+
+.formularioCadastro{
+  width: 50%;
+  font-size: 20px;
+}
+
+#cartaocredito{
+  margin-top: 20px;
+  width: 50%;
+}
+
+@media (max-width: 500px) {
+  .formularioCadastro,
+  #cartaocredito{
+    width: 100% !important;
+  }
+}
+
+.formularioCadastro label{
+  margin: 5px;
+}
+
+.formularioCadastro input{
+  width: 200px;
+}
+
+.formulario{
+  font-size: 20px;
+  margin:5px;
+}
+
+@media (max-width: 500px) {
+  #nome, #endereco, #nomecartao, #complemento{
+    width: 100% !important;
+  }
+}
+
+#nome {
+  width: 400px;
+}
+
+#telefone {
+  width: 120px;
+}
+
+.inputcredito, #cartaocredito label{
+  margin: 5px;
+  margin-left: 10px;
+}
+
+#endereco {
+  width: 400px;
+}
+
+#numero {
+  width: 60px;
+}
+
+#complemento {
+  width: 400px;
+}
+
+#numerocartao{
+  width: 200px;
+}
+
+#validade{
+  width: 50px;
+}
+
+#cvc {
+  width: 25px;
+}
+
+#nomecartao{
+  width: 400px;
+}
+
+.hide {
+  display: none !important;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: rgb(14, 122, 24);
+  line-height: 60px
+}
+
+.imagem-responsiva {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*---Bloquear logo no centro ---*/
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*---layout buttons---*/
+.btn-group-lg > .btn, .btn-lg {
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 1.33333;
+  padding: 10px 16px;
+}
+.btn-primary {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  color: #fff;
+}
+.btn {
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857;
+  margin-bottom: 0;
+  padding: 6px 12px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button a:hover{
+  text-decoration: underline;
+}
+
+.classfinalizacao h2, .classPagamento h2, .classCadastro h2{
+  padding:0;
+  margin:0;
+}
+
+.button {
+  padding-top: 20px;
+}
